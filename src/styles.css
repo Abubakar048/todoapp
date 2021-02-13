@@ -1,0 +1,73 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding-top: 10%;
+  
+  }
+  .LoginButton
+ {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ .LogoutButton
+ {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+html,
+body {
+  margin: 20px;
+  text-align: center; 
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+}
+ 
+.TextFields{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+.AddTodoButton
+ {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ .btn {
+  background-color: rgb(0, 0, 0); 
+  border: none; 
+  color: white; 
+  padding: 2px 4px; 
+  font-size: 12px; 
+  cursor: pointer; 
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
